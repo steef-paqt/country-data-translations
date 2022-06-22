@@ -1,0 +1,76 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "5560f6f0d17f20f03b2e7a3e9687275c",
+    "packages": [
+        {
+            "name": "digitickets/lalit",
+            "version": "3.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/digitickets/lalit.git",
+                "reference": "c42d6ba903ee78ea4210582fb8401aafa9858678"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/digitickets/lalit/zipball/c42d6ba903ee78ea4210582fb8401aafa9858678",
+                "reference": "c42d6ba903ee78ea4210582fb8401aafa9858678",
+                "shasum": ""
+            },
+            "require": {
+                "ext-dom": "*",
+                "php": ">=7"
+            },
+            "require-dev": {
+                "mockery/mockery": "^0",
+                "phpunit/phpunit": "^6"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "LaLit\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "CC0-1.0"
+            ],
+            "authors": [
+                {
+                    "name": "Lalit Patel",
+                    "role": "Lead Developer"
+                },
+                {
+                    "name": "Richard Quadling",
+                    "role": "Developer"
+                }
+            ],
+            "description": "GitHub copy of LaLit's XML2Array and Array2XML",
+            "homepage": "http://www.lalit.org/lab",
+            "keywords": [
+                "array",
+                "xml"
+            ],
+            "support": {
+                "issues": "https://github.com/digitickets/lalit/issues",
+                "source": "https://github.com/digitickets/lalit/tree/3.3.0"
+            },
+            "time": "2022-03-10T17:19:42+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "ext-json": "*",
+        "ext-simplexml": "*"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "2.2.0"
+}

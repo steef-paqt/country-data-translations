@@ -1,0 +1,7 @@
+{
+    "require": {
+        "ext-json": "*",
+        "ext-simplexml": "*",
+        "digitickets/lalit": "^3.3"
+    }
+}
